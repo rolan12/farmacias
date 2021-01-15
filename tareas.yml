@@ -2,7 +2,7 @@
 - name: Copiar archivos
   hosts: all
   tasks:
-  - name: copiar archivo index
-    copy:
-    src: labansible/files/index.html
-    dest: prueba/index.html
+    - name: copiar archivo index
+      copy:
+        src: labansible/files/index.html
+        dest: prueba/index.html
