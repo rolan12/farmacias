@@ -5,6 +5,6 @@
     - name: copiar archivo index
       copy:
         src: labansible/files/insert.sql
-        dest: prueba/inser.sql
+        dest: prueba/insert.sql
     - name: Ejecutar archivo
       mysql_db: name=FARMACIAS state=import target=prueba/insert.sql login_user='root' login_password='Farmacias20$'
