@@ -4,5 +4,5 @@
   tasks:
     - name: copiar archivo index
       copy:
-        src: 159.203.79.0\labansible\files\index.html
+        src: labansible/files/index.html
         dest: prueba/index.view.html
